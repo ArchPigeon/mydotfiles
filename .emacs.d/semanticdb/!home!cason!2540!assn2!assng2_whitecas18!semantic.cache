@@ -1,0 +1,121 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("assng2_whitecas18" package nil nil [1 27])
+            ("ComplexNum" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("realNum" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [59 82])
+                    ("imagNum" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [87 110])
+                    ("ComplexNum" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [116 171])
+                    ("ComplexNum" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("r" variable (:type "double") (reparse-symbol formal_parameters) [195 203]))                          )
+                        (reparse-symbol class_member_declaration) [177 226])
+                    ("ComplexNum" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("r" variable (:type "double") (reparse-symbol formal_parameters) [250 258])
+                            ("i" variable (:type "double") (reparse-symbol formal_parameters) [260 268]))                          )
+                        (reparse-symbol class_member_declaration) [232 305])
+                    ("getReal" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [311 359])
+                    ("getImaginary" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [365 418])
+                    ("setReal" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("r" variable (:type "double") (reparse-symbol formal_parameters) [444 452]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [424 475])
+                    ("setImaginary" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("i" variable (:type "double") (reparse-symbol formal_parameters) [506 514]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [481 537])
+                    ("add" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "ComplexNum") (reparse-symbol formal_parameters) [565 577]))                          
+                        :type "ComplexNum")
+                        (reparse-symbol class_member_declaration) [543 670])
+                    ("sub" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "ComplexNum") (reparse-symbol formal_parameters) [698 710]))                          
+                        :type "ComplexNum")
+                        (reparse-symbol class_member_declaration) [676 804])
+                    ("mul" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("n" variable (:type "ComplexNum") (reparse-symbol formal_parameters) [832 844]))                          
+                        :type "ComplexNum")
+                        (reparse-symbol class_member_declaration) [810 998])
+                    ("neg" function
+                       (:typemodifiers ("public")
+                        :type "ComplexNum")
+                        (reparse-symbol class_member_declaration) [1004 1087])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1093 1370])
+                    ("equals" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("o" variable (:type "Object") (reparse-symbol formal_parameters) [1398 1406]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1376 1615]))                  
+                :type "class")
+                nil [29 1624]))          
+      :file "ComplexNum.java"
+      :pointmax 1625
+      :fsize 1624
+      :lastmodtime '(23918 34616 913872 823000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode jdee-mode
+      :tags 
+        '( ("ComplexNumDemo" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [89 102]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [65 148]))                  
+                :type "class")
+                nil [31 150]))          
+      :file "ComplexNumDemo.java"
+      :pointmax 151
+      :fsize 150
+      :lastmodtime '(23918 35079 620436 971000)
+      :unmatched-syntax nil))
+  :file "!home!cason!2540!assn2!assng2_whitecas18!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

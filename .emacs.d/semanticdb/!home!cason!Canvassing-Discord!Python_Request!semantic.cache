@@ -1,0 +1,79 @@
+;; Object semanticdb-project-database-file-15676c5a3120
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-15676c5a3120"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-15676c4d0c38"
+      :major-mode python-mode
+      :tags 
+        '( ("requests" include nil nil [1 16])
+            ("json" include nil nil [17 28])
+            ("auth_token" variable nil nil [30 115])
+            ("headers" variable nil nil [116 182])
+            ("session" variable nil nil [184 212])
+            ("session" code nil nil [213 244])
+            ("announcements" variable nil nil [247 330])
+            ("print" code nil nil [369 389]))          
+      :file "getAnnounce.py"
+      :pointmax 392
+      :fsize 391
+      :lastmodtime '(24423 35249 354973 228000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-15676c5370f0"
+      :major-mode python-mode
+      :tags 
+        '( ("requests" include nil nil [1 16])
+            ("json" include nil nil [17 28])
+            ("auth_token" variable nil nil [30 115])
+            ("headers" variable nil nil [116 182])
+            ("session" variable nil nil [184 212])
+            ("session" code nil nil [213 244])
+            ("courses" variable nil nil [247 324])
+            ("data" variable nil nil [326 335])
+            ("for" code nil nil [336 747])
+            ("print" code nil nil [748 759])
+            ("announ_response" variable nil nil [760 760])
+            ("announcements" variable nil nil [760 760]))          
+      :file "PythonRequest.py"
+      :pointmax 760
+      :fsize 786
+      :lastmodtime '(24423 38294 322526 34000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-15676c90d1b4"
+      :major-mode python-mode
+      :tags 
+        '( ("requests" include nil nil [1 16])
+            ("json" include nil nil [17 28])
+            ("CanvasCourse" type
+               (:members 
+                  ( ("__init__" function
+                       (:suite 
+                          ( ("self" variable nil (reparse-symbol indented_block_body) [192 220])
+                            ("self" variable nil (reparse-symbol indented_block_body) [225 255])
+                            ("self" variable nil (reparse-symbol indented_block_body) [260 288])
+                            ("self" variable nil (reparse-symbol indented_block_body) [293 373])
+                            ("self" variable nil (reparse-symbol indented_block_body) [378 458])
+                            ("self" variable nil (reparse-symbol indented_block_body) [463 496])
+                            ("self" code nil (reparse-symbol indented_block_body) [501 542]))                          
+                        :parent "dummy"
+                        :arguments 
+                          ( ("self" variable nil (reparse-symbol function_parameters) [66 70])
+                            ("institution" variable nil (reparse-symbol function_parameters) [72 83])
+                            ("auth_token" variable nil (reparse-symbol function_parameters) [85 95])
+                            ("class_code" variable nil (reparse-symbol function_parameters) [97 107]))                          
+                        :constructor-flag t)
+                        (reparse-symbol indented_block_body) [53 543])
+                    ("getAnnouncements" function (:arguments 
+                      ( ("start_date" variable nil (reparse-symbol function_parameters) [724 734])
+                        ("end_date" variable nil (reparse-symbol function_parameters) [736 744]))                      ) (reparse-symbol indented_block_body) [703 947])
+                    ("getAssignments" function nil (reparse-symbol indented_block_body) [1020 1183]))                  
+                :type "class")
+                nil [30 1183]))          
+      :file "Class.py"
+      :pointmax 2098
+      :fsize 2097
+      :lastmodtime '(24423 41404 641127 747000)
+      :unmatched-syntax nil))
+  :file "!home!cason!Canvassing-Discord!Python_Request!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

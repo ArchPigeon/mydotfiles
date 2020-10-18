@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode python-mode
+      :tags 
+        '( ("json" include nil nil [1 12])
+            ("requests" include nil nil [13 28])
+            ("getWebSiteText" function (:arguments 
+              ( ("startYear" variable nil (reparse-symbol function_parameters) [179 188])
+                ("startMonth" variable nil (reparse-symbol function_parameters) [189 199])
+                ("startDay" variable nil (reparse-symbol function_parameters) [201 209])
+                ("endYear" variable nil (reparse-symbol function_parameters) [210 217])
+                ("endMonth" variable nil (reparse-symbol function_parameters) [218 226])
+                ("endDay" variable nil (reparse-symbol function_parameters) [227 233])
+                ("pageSize" variable nil (reparse-symbol function_parameters) [234 242])
+                ("docNumber" variable nil (reparse-symbol function_parameters) [243 252])
+                ("billType" variable nil (reparse-symbol function_parameters) [253 261]))              ) nil [160 2220])
+            ("getWebSiteDocCount" function (:arguments 
+              ( ("startYear" variable nil (reparse-symbol function_parameters) [2316 2325])
+                ("startMonth" variable nil (reparse-symbol function_parameters) [2326 2336])
+                ("startDay" variable nil (reparse-symbol function_parameters) [2338 2346])
+                ("endYear" variable nil (reparse-symbol function_parameters) [2347 2354])
+                ("endMonth" variable nil (reparse-symbol function_parameters) [2355 2363])
+                ("endDay" variable nil (reparse-symbol function_parameters) [2364 2370])
+                ("pageSize" variable nil (reparse-symbol function_parameters) [2371 2379])
+                ("billType" variable nil (reparse-symbol function_parameters) [2380 2388]))              ) nil [2293 2894]))          
+      :file "WebsiteInfoGetter.py"
+      :pointmax 2902
+      :fsize 2969
+      :lastmodtime '(24205 9166 0 0)
+      :unmatched-syntax nil))
+  :file "!home!cason!b!src!Classifer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

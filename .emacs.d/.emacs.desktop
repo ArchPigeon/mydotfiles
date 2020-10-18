@@ -1,0 +1,151 @@
+;; -*- mode: emacs-lisp; lexical-binding:t; coding: utf-8-emacs; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Sep 20 14:55:50 2020
+;; Desktop file format version 208
+;; Emacs version 27.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (24423 42422 563743 950000) (desktop . "208") "cason@TheBlackArch" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font . "-1ASC-Liberation Mono for Powerline-normal-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter . "Liberation Mono for Powerline") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#aec3c0") (background-color . "#05181D") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground . "#aec3c0") (scroll-bar-background . "#aec3c0") (menu-bar-lines . 0) (tab-bar-lines . 0) (height . 58) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 16) (scroll-bar-height . 16) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen) (visibility . t) (skip-taskbar) (z-group) (environment "EDITOR=emacsclient" "LC_CTYPE=" "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:" "LSCOLORS=Gxfxcxdxbxegedabagacad" "LESS=-R" "PAGER=less" "ZSH=/home/cason/.oh-my-zsh" "OLDPWD=/home/cason" "TERM=rxvt-256color" "COLORTERM=rxvt" "COLORFGBG=7;0" "WINDOWID=33554442" "_=/usr/bin/emacsclient" "MAIL=/var/spool/mail/cason" "HG=/usr/bin/hg" "DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus" "GDMSESSION=i3" "PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl" "XDG_DATA_DIRS=/home/cason/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share" "XDG_RUNTIME_DIR=/run/user/1000" "MOZ_PLUGIN_PATH=/usr/lib/mozilla/plugins" "XDG_SESSION_ID=2" "XDG_VTNR=7" "SHLVL=1" "DISPLAY=:0" "USER=cason" "XDG_SESSION_CLASS=user" "XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0" "XDG_CURRENT_DESKTOP=i3" "LANG=en_US.utf8" "HOME=/home/cason" "GDM_LANG=en_US.utf8" "MOTD_SHOWN=pam" "XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/cason" "DESKTOP_STARTUP_ID=i3/urxvt/530-9-TheBlackArch_TIME3584576" "XAUTHORITY=/home/cason/.Xauthority" "XDG_SESSION_TYPE=x11" "XDG_SESSION_DESKTOP=i3" "LOGNAME=cason" "PWD=/home/cason" "XDG_SEAT=seat0" "GTK_MODULES=canberra-gtk-module" "DESKTOP_SESSION=i3" "I3SOCK=/run/user/1000/i3/ipc-socket.530" "XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0" "SHELL=/usr/bin/zsh") (display-type . color) (background-mode . dark) (cursor-color . "#aec3c0") (sticky) (last-focus-update . t) (frameset--id . "DEE3-6CF0-5BFC-341C") (frameset--mini t . t) (width . 98) (modeline . t) (unsplittable) (left . 800) (top . 16) (icon-name) (display . ":0") (explicit-name)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 120) (min-pixel-width . 80) (min-pixel-height-ignore . 60) (min-pixel-width-ignore . 32) (min-pixel-height-safe . 30) (min-pixel-width-safe . 16)) vc (pixel-width . 800) (pixel-height . 869) (total-width . 100) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 800) (pixel-height . 434) (total-width . 100) (total-height . 28) (normal-height . 0.5) (normal-width . 1.0) (buffer "CanvasCourse.py" (selected . t) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 1172) (start . 374)) (prev-buffers ("Class.py" 1 1) ("CanvasCourse.py" 1 1) ("access_token.txt" 1 72) ("PythonRequest.py" 1 759) ("*terminal<1>*" 1679 2870))) (leaf (last . t) (pixel-width . 800) (pixel-height . 435) (total-width . 100) (total-height . 29) (normal-height . 0.5) (normal-width . 1.0) (buffer "*terminal<2>*" (selected) (hscroll . 0) (fringes 8 8 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 26952) (start . 26952)) (prev-buffers ("*Diff*" 1 1) ("*terminal<2>*" 2042 3252)))) (((minibuffer . t) (display-type . mono) (background-mode . dark) (cursor-color . "#aec3c0") (menu-bar-lines . 0) (tool-bar-lines . 0) (vertical-scroll-bars) (foreground-color . "#aec3c0") (background-color . "#05181D") (font . "tty") (height . 11) (width . 10) (modeline . t) (unsplittable) (tab-bar-lines . 0) (frameset--id . "9942-19D9-ADE3-BED4") (frameset--mini t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 10) (pixel-height . 10) (total-width . 10) (total-height . 10) (normal-height . 1.0) (normal-width . 1.0) (buffer "PythonRequest.py" (selected) (hscroll . 0) (fringes 0 0 nil nil) (margins nil) (scroll-bars nil 0 t nil 0 t nil) (vscroll . 0) (dedicated) (point . 456) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '(#("elpy" 0 4 (isearch-case-fold-search t isearch-regexp-function nil))))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/Canvassing-Discord/Python_Request/Class.py" "~/Canvassing-Discord/main_project/CanvasCourse.py" "~/Canvassing-Discord/main_project/Canvas.py" "~/canvasstuff/access_token.txt" "~/Canvassing-Discord/Python_Request/Class.py" "~/Canvassing-Discord/Python_Request/PythonRequest.py" "~/Canvassing-Discord/main_project/Canvas.py" "~/.emacs" "~/Canvassing-Discord/main_project/Canvas.py" "~/canvasstuff/access_token.txt" "~/Canvassing-Discord/Python_Request/PythonRequest.py" "~/Canvassing-Discord/Python_Request/getAnnounce.py" "~/Canvassing-Discord/Python_Request/#getAnnounce.py#" "/home/cason/b/src/Classifer/WebsiteInfoGetter.py" "~/OS/examples/final-src-osc10e/ch3/unix_pipe.c" "~/2540/assn2/assng2_whitecas18/ComplexNum.java" "~/2540/assn2/" "~/eclipse-workspace/csci 2540 assn1/src/assn1.java" "~/.emacs.d/" "/usr/lib/systemd/user/emacs.service" "~/eclipse-workspace/csci 2540 assn1/src/assn1.java"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/home/cason/Canvassing-Discord/main_project/CanvasCourse.py"
+  "CanvasCourse.py"
+  'python-mode
+  '(eldoc-mode flycheck-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  1172
+  '(1150 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24423 41968 622668 76000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1899 1 1 1 1 1899 1471 582 781 724 1045 1051 1128 1172 1172 1150))))
+
+(desktop-create-buffer 208
+  "/home/cason/Canvassing-Discord/Python_Request/Class.py"
+  "Class.py"
+  'python-mode
+  '(eldoc-mode flycheck-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  1
+  '(2098 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24423 41765 452203 537000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1))))
+
+(desktop-create-buffer 208
+  "/home/cason/canvasstuff/access_token.txt"
+  "access_token.txt"
+  'text-mode
+  '(flycheck-mode company-mode)
+  72
+  '(1 nil)
+  nil
+  nil
+  '((buffer-display-time 24423 41731 93278 267000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1 7 1 7 55 7 5 1 31 7 1 19 1 72 72))))
+
+(desktop-create-buffer 208
+  "/home/cason/Canvassing-Discord/Python_Request/PythonRequest.py"
+  "PythonRequest.py"
+  'python-mode
+  '(eldoc-mode flycheck-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  759
+  '(44 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24423 37545 632564 683000) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (247 760 184 30 419 502 30 419 270 30 30 760 760 270 760 759))))
+
+(desktop-create-buffer 208
+  "/home/cason/.emacs"
+  ".emacs"
+  'emacs-lisp-mode
+  '(eldoc-mode flycheck-mode company-mode)
+  3231
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-display-time 24423 35541 940472 520000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/cason/Canvassing-Discord/Python_Request/getAnnounce.py"
+  "getAnnounce.py"
+  'python-mode
+  '(eldoc-mode flycheck-mode company-mode elpy-mode flymake-mode highlight-indentation-mode yas-minor-mode)
+  246
+  '(321 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-display-time 24423 34435 486273 829000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (322 276 276 322 322 322 322 44 44 322 322 276 246 246 30 246))))
+
+(desktop-create-buffer 208
+  "/home/cason/b/.git/COMMIT_EDITMSG"
+  "COMMIT_EDITMSG"
+  'fundamental-mode
+  '(company-mode)
+  24
+  '(23 nil)
+  nil
+  nil
+  '((buffer-display-time 24420 63740 126308 700000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (24))))
+
+(desktop-create-buffer 208
+  "/home/cason/OS/examples/final-src-osc10e/ch3/unix_pipe.c"
+  "unix_pipe.c"
+  'c-mode
+  '(abbrev-mode eldoc-mode flycheck-mode ggtags-mode company-mode)
+  459
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 24417 12860 813811 200000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/home/cason/2540/assn2/assng2_whitecas18/ComplexNum.java"
+  "ComplexNum.java"
+  'jdee-mode
+  '(abbrev-mode eldoc-mode flycheck-mode ggtags-mode company-mode jdee-jdb-minor-mode)
+  878
+  '(745 nil)
+  nil
+  nil
+  '((buffer-display-time 24414 34187 798126 484000) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (29 1051 171 269 538 618 745 683 746))))
+
+(desktop-create-buffer 208
+  "/home/cason/eclipse-workspace/csci 2540 assn1/src/assn1.java"
+  "assn1.java"
+  'jdee-mode
+  '(abbrev-mode eldoc-mode flycheck-mode ggtags-mode company-mode jdee-jdb-minor-mode)
+  645
+  '(69 nil)
+  nil
+  nil
+  '((buffer-display-time 24414 34200 149148 892000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (466 645))))
+
+(desktop-create-buffer 208
+  "/usr/lib/systemd/user/emacs.service"
+  "emacs.service"
+  'fundamental-mode
+  '(company-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-display-time 24420 63741 878905 589000) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
