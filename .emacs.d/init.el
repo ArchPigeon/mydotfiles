@@ -1,34 +1,49 @@
-;;; init.el --- Spacemacs Initialization File
+;;; init.el -*- lexical-binding: t; -*-
 ;;
-;; Copyright (c) 2012-2017 Sylvain Benner & Contributors
+;; Author:  Henrik Lissner <henrik@lissner.net>
+;; URL:     https://github.com/hlissner/doom-emacs
 ;;
-;; Author: Sylvain Benner <sylvain.benner@gmail.com>
-;; URL: https://github.com/syl20bnr/spacemacs
+;;   =================     ===============     ===============   ========  ========
+;;   \\ . . . . . . .\\   //. . . . . . .\\   //. . . . . . .\\  \\. . .\\// . . //
+;;   ||. . ._____. . .|| ||. . ._____. . .|| ||. . ._____. . .|| || . . .\/ . . .||
+;;   || . .||   ||. . || || . .||   ||. . || || . .||   ||. . || ||. . . . . . . ||
+;;   ||. . ||   || . .|| ||. . ||   || . .|| ||. . ||   || . .|| || . | . . . . .||
+;;   || . .||   ||. _-|| ||-_ .||   ||. . || || . .||   ||. _-|| ||-_.|\ . . . . ||
+;;   ||. . ||   ||-'  || ||  `-||   || . .|| ||. . ||   ||-'  || ||  `|\_ . .|. .||
+;;   || . _||   ||    || ||    ||   ||_ . || || . _||   ||    || ||   |\ `-_/| . ||
+;;   ||_-' ||  .|/    || ||    \|.  || `-_|| ||_-' ||  .|/    || ||   | \  / |-_.||
+;;   ||    ||_-'      || ||      `-_||    || ||    ||_-'      || ||   | \  / |  `||
+;;   ||    `'         || ||         `'    || ||    `'         || ||   | \  / |   ||
+;;   ||            .===' `===.         .==='.`===.         .===' /==. |  \/  |   ||
+;;   ||         .=='   \_|-_ `===. .==='   _|_   `===. .===' _-|/   `==  \/  |   ||
+;;   ||      .=='    _-'    `-_  `='    _-'   `-_    `='  _-'   `-_  /|  \/  |   ||
+;;   ||   .=='    _-'          '-__\._-'         '-_./__-'         `' |. /|  |   ||
+;;   ||.=='    _-'                                                     `' |  /==.||
+;;   =='    _-'                                                            \/   `==
+;;   \   _-'                                                                `-_   /
+;;    `''                                                                      ``'
 ;;
-;; This file is not part of GNU Emacs.
+;; These demons are not part of GNU Emacs.
 ;;
-;;; License: GPLv3
+;;; License: MIT
 
-;; Without this comment emacs25 adds (package-initialize) here
-;; (package-initialize)
+;; A big contributor to startup times is garbage collection. We up the gc
+;; threshold to temporarily prevent it from running, then reset it later by
+;; enabling `gcmh-mode'. Not resetting it will cause stuttering/freezes.
+(setq gc-cons-threshold most-positive-fixnum)
 
-;; Increase gc-cons-threshold, depending on your system you may set it back to a
-;; lower value in your dotfile (function `dotspacemacs/user-config')
-(setq gc-cons-threshold 100000000)
+;; In noninteractive sessions, prioritize non-byte-compiled source files to
+;; prevent the use of stale byte-code. Otherwise, it saves us a little IO time
+;; to skip the mtime checks on every *.elc file.
+(setq load-prefer-newer noninteractive)
 
-(defconst spacemacs-version         "0.200.13" "Spacemacs version.")
-(defconst spacemacs-emacs-min-version   "24.4" "Minimal version of Emacs.")
+(let (file-name-handler-alist)
+  ;; Ensure Doom is running out of this file's directory
+  (setq user-emacs-directory (file-name-directory load-file-name)))
 
-(if (not (version<= spacemacs-emacs-min-version emacs-version))
-    (error (concat "Your version of Emacs (%s) is too old. "
-                   "Spacemacs requires Emacs version %s or above.")
-           emacs-version spacemacs-emacs-min-version)
-  (load-file (concat (file-name-directory load-file-name)
-                     "core/core-load-paths.el"))
-  (require 'core-spacemacs)
-  (spacemacs/init)
-  (configuration-layer/sync)
-  (spacemacs-buffer/display-startup-note)
-  (spacemacs/setup-startup-hook)
-  (require 'server)
-  (unless (server-running-p) (server-start)))
+;; Load the heart of Doom Emacs
+(load (concat user-emacs-directory "core/core")
+      nil 'nomessage)
+
+;; And let 'er rip!
+(doom-initialize)
